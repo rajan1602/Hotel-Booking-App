@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000/api" });
+const API = axios.create({ baseURL: "https://hotel-booking-app-1w36.onrender.com/api" });
 
 // Automatically attach JWT token if exists
 API.interceptors.request.use((req) => {
