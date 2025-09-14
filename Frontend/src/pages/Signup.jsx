@@ -16,6 +16,7 @@ export default function Signup() {
     try {
       const res = await API.post("/auth/register", form);
       localStorage.setItem("token", res.data.token);
+      localStorage.setItem("user", res.data.user?.name || form.name);
       alert("Signup successful!");
       navigate("/"); // redirect to home
     } catch (err) {
