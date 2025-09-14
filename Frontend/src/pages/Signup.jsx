@@ -26,7 +26,7 @@ export default function Signup() {
   return (
     <div
       className="h-screen flex items-center justify-center bg-cover bg-center relative"
-      style={{ backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBxesHqBgaA6qgxdZuZM_pOLL4nQ8qBtT7KoCApHuKWt8lsrF73G09YCcrl3QipP2CP1A&usqp=CAU')" }}
+      style={{ backgroundImage: "url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54581.jpg?semt=ais_hybrid&w=740&q=80')" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50"></div>
